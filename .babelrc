@@ -1,0 +1,33 @@
+{
+  "presets": [
+    ["@babel/preset-env",
+      {
+        "targets": {
+          "browsers": [
+            "last 4 versions",
+            "ie >= 10"
+          ]},
+        "debug": false,
+        "spec": false,
+        "loose": false,
+        "useBuiltIns": false,
+        "include": [],
+        "exclude": [],
+        "forceAllTransforms": false
+      }
+    ]
+  ],
+  "ignore": [
+    "node_modules/**",
+    "dist"
+  ],
+  "plugins": [
+    ["@babel/plugin-proposal-decorators", { "legacy": true }],
+    "@babel/plugin-syntax-optional-chaining",
+    "@babel/plugin-proposal-do-expressions",
+    "@babel/plugin-proposal-object-rest-spread",
+    "@babel/plugin-proposal-class-properties",
+    "@babel/plugin-transform-runtime",
+    "@babel/plugin-syntax-dynamic-import"
+  ]
+}

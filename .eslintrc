@@ -1,0 +1,36 @@
+{
+  "extends": ["airbnb","prettier"],
+  "globals": {
+    "window": true,
+    "document": true
+  },
+  "rules": {
+    "react/jsx-indent":"off",
+    "react/prop-types":"off",
+    "react/no-multi-comp":"off",
+    "react/prefer-stateless-function":"off",
+    "react/destructuring-assignment":"off",
+    "react/no-array-index-key":"off",
+    "react/jsx-filename-extension":"off",
+    "import/prefer-default-export":1,
+    "one-var":"off",
+    "no-underscore-dangle":"off",
+    "no-plusplus":"off",
+    "camelcase":1,
+    "no-console":"off",
+    "no-empty":1,
+    "no-unused-expressions":1,
+    "no-multi-assign": "off",
+    "import/first":1,
+    "prefer-promise-reject-errors":1,
+    "import/extensions":"off",
+    "prefer-const":1,
+    "no-restricted-properties":"off",
+    "no-bitwise": "off",
+    "no-restricted-syntax":1,
+    "no-param-reassign": 1,
+    "no-nested-ternary": 1,
+    "no-control-regex":"off",
+    "class-methods-use-this":"off"
+  }
+}
