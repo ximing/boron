@@ -40,7 +40,7 @@ function Page(config) {
         async doAfterAppReady() {
             if (!state.appReady) {
                 state.listenAppReady(this.route);
-                await new Promise((resolve, reject) => {
+                await new Promise((resolve) => {
                     // 为了再页面销毁的时候移除监听函数
                     state.once(`__appReady${this.route}__`, () => {
                         resolve();

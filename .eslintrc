@@ -15,6 +15,7 @@
     "import/prefer-default-export":1,
     "one-var":"off",
     "no-underscore-dangle":"off",
+    "no-await-in-loop":"off",
     "no-plusplus":"off",
     "camelcase":1,
     "no-console":"off",
